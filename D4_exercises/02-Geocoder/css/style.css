@@ -1,2 +1,70 @@
 /* TODO: Put your CSS code in here */
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #44929b !important;
+    }
 
+    .searchbar{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:#44929b;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #44929b;
+    }
+
+    .search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    }
+
+    #mapbox {
+        margin: auto;
+        width: 90%;
+        height: 70%;
+        background-color: #353b48;
+        overflow: hidden;
+        border-radius: 25px;
+        /* box-shadow: 10px 10px 5px grey; */
+      }
+
+     #map{
+       
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        /* border-radius: 40px; */
+      }
+      
